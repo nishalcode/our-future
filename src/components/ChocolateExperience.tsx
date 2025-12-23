@@ -61,7 +61,7 @@ export default function ChocolateExperience({ onNext }: { onNext: () => void }) 
 
       <Canvas shadows camera={{ position: [0, 0, 5], fov: 45 }}>
         <Suspense fallback={null}>
-          <Environment preset="sweet" />
+          <Environment preset="studio" />
           <ambientLight intensity={0.5} />
           <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} shadow-mapSize={[2048, 2048]} castShadow />
           
