@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Inter:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #FF6B9D;
+  --secondary: #4a2c2a;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--secondary);
+  background: #FFF5F7;
+}
+
+.font-fredoka {
+  font-family: 'Fredoka', sans-serif;
+}
+
+/* Custom Hide Scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
